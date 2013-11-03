@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="877.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller">
+  <children>
+    <WebView fx:id="webView" mouseTransparent="false" pickOnBounds="false" prefHeight="337.0" prefWidth="358.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="359.0" AnchorPane.topAnchor="49.0" />
+    <TextField id="inputField" fx:id="inputField" disable="true" layoutY="14.0" prefWidth="504.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="359.0" />
+    <ListView fx:id="listView" prefHeight="337.0" prefWidth="334.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="49.0" />
+    <TextField fx:id="countField" disable="true" layoutX="529.0" layoutY="14.0" prefWidth="176.0" />
+    <TextField fx:id="parseField" disable="true" layoutX="716.0" layoutY="14.0" prefWidth="147.0" />
+  </children>
+</AnchorPane>

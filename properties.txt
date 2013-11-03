@@ -1,0 +1,31 @@
+APP_ID: 3972445
+REDIRECT_URI: http://oauth.vk.com/blank.html
+security code: DrmelTJE5kX8J1IUGQb4
+DISPLAY: page, ((popup)), touch, wap
+SETTINGS: http://vk.com/pages?oid=-1&p=Права_доступа_приложений (e.g. audio, video and etc)
+
+auth:
+https://oauth.vk.com/authorize? 
+client_id=APP_ID& 
+scope=SETTINGS& 
+redirect_uri=REDIRECT_URI& 
+display=DISPLAY& 
+response_type=token
+
+
+e.g.:
+https://oauth.vk.com/authorize?
+client_id=3972445&
+scope=10&
+redirect_uri=http://oauth.vk.com/blank.html&
+display=popup&
+response_type=token
+
+
+POST/GET
+METHOD NAME: http://vk.com/pages?oid=-1&p=Описание_методов_API
+https://api.vk.com/method/METHOD_NAME?PARAMETERS&access_token=ACCESS_TOKEN
+
+e.g.:
+https://api.vk.com/method/friends.getOnline?uid=56040045&access_token=4748445ac7667ef89d7a85277f29490704e97b33016aeeaf70e746bab10ebcd358371041e5b4d5683bcde
+https://api.vk.com/method/audio.search?q=Иуфдуы&auto_complete=1&sort=2&count=1&access_token=4748445ac7667ef89d7a85277f29490704e97b33016aeeaf70e746bab10ebcd358371041e5b4d5683bcde

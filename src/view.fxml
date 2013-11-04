@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
-<?import java.util.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.paint.*?>
 <?import javafx.scene.web.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="1204.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller">
+<AnchorPane id="AnchorPane" maxHeight="558.0" maxWidth="1095.0" minHeight="620.0" minWidth="1145.0" prefHeight="558.0" prefWidth="1084.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller">
   <children>
-    <WebView fx:id="webView" mouseTransparent="false" pickOnBounds="false" prefHeight="495.0" prefWidth="529.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="661.0" AnchorPane.topAnchor="49.0" />
-    <TextField fx:id="inputField" disable="true" layoutY="14.0" prefWidth="515.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="675.0" />
-    <ListView fx:id="listView" prefHeight="337.0" prefWidth="334.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="321.0" AnchorPane.topAnchor="49.0" />
-    <TextField fx:id="countField" disable="true" layoutX="549.0" layoutY="14.0" prefWidth="167.0" />
-    <TextField fx:id="parseField" disable="true" layoutX="716.0" layoutY="14.0" prefWidth="166.99990000000253" />
-    <TextArea fx:id="songText" layoutX="908.0" layoutY="14.0" prefHeight="544.0" prefWidth="296.0" wrapText="true" editable="false"/>
+    <WebView fx:id="webView" mouseTransparent="false" pickOnBounds="false" prefHeight="492.0" prefWidth="420.0" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="650.0" AnchorPane.topAnchor="53.0" />
+    <TextField fx:id="inputField" disable="true" editable="true" layoutY="11.0" prefHeight="32.0" prefWidth="420.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="649.0" />
+    <ListView fx:id="listView" prefHeight="492.0" prefWidth="353.0" AnchorPane.bottomAnchor="13.5" AnchorPane.rightAnchor="285.0" AnchorPane.topAnchor="52.5" />
+    <TextField fx:id="countField" disable="true" editable="true" layoutY="11.0" prefHeight="32.0" prefWidth="177.0" AnchorPane.rightAnchor="461.0" />
+    <TextField fx:id="parseField" disable="true" editable="true" layoutY="11.0" prefHeight="32.0" prefWidth="173.0" AnchorPane.rightAnchor="285.0" />
+    <TextArea fx:id="songText" editable="false" prefHeight="534.0" prefWidth="268.0" wrapText="true" AnchorPane.bottomAnchor="13.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="11.0" />
   </children>
 </AnchorPane>

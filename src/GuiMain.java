@@ -22,9 +22,8 @@ public class GuiMain extends Application {
 		Scene scene = new Scene(root);
 		
 		stage.setScene(scene);
-		stage.setResizable(false);
+		stage.setMinWidth(1145);
+		stage.setMinHeight(620);
 		stage.show();
 	}
-	
-	
 }
